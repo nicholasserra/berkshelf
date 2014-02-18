@@ -155,8 +155,6 @@ module Berkshelf
           lockfile.unlock(dependency)
         end
       end
-
-      lockfile.save
     end
   end
 end
