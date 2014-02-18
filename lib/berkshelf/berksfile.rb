@@ -242,7 +242,7 @@ module Berkshelf
 
       options[:constraint] = constraint
 
-      @dependencies[name] = Berkshelf::Dependency.new(self, name, options)
+      @dependencies[name] = Dependency.new(self, name, options)
     end
 
     # @param [#to_s] dependency
